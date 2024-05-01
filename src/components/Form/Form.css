@@ -1,0 +1,38 @@
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.form-wrapper textarea{
+    padding: 12px ;
+    padding-right: 48px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.form-wrapper .submit-btn{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #4e4e92;
+    color: white;
+}
+
+.form-wrapper .cancel-btn{
+    padding: 8px;
+    border-radius: 8px;
+    /* border: none; */
+    cursor: pointer;
+    /* background-color: rgba(219, 11, 11, 0.763); */
+}
+
+.form-wrapper .cancel-btn:hover{
+    border: none;
+    background-color: rgba(219, 11, 11, 0.763); 
+
+}

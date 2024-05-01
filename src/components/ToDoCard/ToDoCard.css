@@ -1,0 +1,43 @@
+.to-do-card{
+    max-width: 280px;
+    min-width:220px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 8px;
+    padding: 12px;
+    color: rgb(26, 25, 25);
+    box-shadow: 1px 4px 5px rgb(98, 98, 98);
+}
+.to-do-card p{
+    font-size: medium;
+    color: #141488;
+}
+.to-do-card h4{
+    font-size: large;
+    border-bottom: 1px solid rgb(220, 222, 226);
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header button {
+    cursor: pointer;
+    border: none;
+}
+
+.card-edit{
+    display: flex;
+    gap:5px;
+}
+
+
+
+
+
+
+
+
